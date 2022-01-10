@@ -29,4 +29,8 @@
   .title {
     font-size: 2em;
   }
+
+  .recorder-container {
+    width: 100vw;
+  }
 }
