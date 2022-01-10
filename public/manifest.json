@@ -1,0 +1,8 @@
+{
+  "short_name": "Voice Recognition",
+  "name": "Voice Recognition",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
