@@ -26,12 +26,16 @@ export default function App() {
     },
   ];
 
-  const { browserSupportsSpeechRecognition } = useSpeechRecognition({
+  const { browserSupportsSpeechRecognition, isMicrophoneAvailable } = useSpeechRecognition({
     commands,
   });
 
   if (!browserSupportsSpeechRecognition) {
-    return <h3>Browser doesn't support speech recognition.</h3>;
+    return <h3 className="error-message">Browser doesn't support speech recognition.</h3>;
+  }
+
+  if (!isMicrophoneAvailable) {
+    return <h3 className="error-message">This application can't be accessed without microphone. Please allow it first.</h3>
   }
 
   return (

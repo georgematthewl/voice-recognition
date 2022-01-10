@@ -18,3 +18,14 @@
   background: linear-gradient(to right, #41295a, #2f0743);
   color: #fff;
 }
+
+.error-message {
+  padding: 1rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2em;
+  }
+}
