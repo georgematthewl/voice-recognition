@@ -17,7 +17,7 @@ export default function RecordingsList({ audio }) {
           <div className="recordings-list">
             {recordings.map((record) => (
               <>
-                <h5>{record.name}</h5>
+                <h4>{record.name}</h4>
                 <div className="record" key={record.key}>
                   <audio controls src={record.audio} />
                   <div className="delete-button-container">
@@ -39,7 +39,7 @@ export default function RecordingsList({ audio }) {
           <FontAwesomeIcon
             icon={faExclamationCircle}
             size="2x"
-            color="#f2ea02"
+            color="#fff"
           />
           <span style={{ marginTop: 8 }}>You don't have any records</span>
         </div>

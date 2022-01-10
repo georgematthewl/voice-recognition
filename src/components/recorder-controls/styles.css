@@ -2,6 +2,7 @@
   height: 15%;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   padding: 0.5rem;
 }
 
@@ -26,7 +27,7 @@
   height: 10px;
   margin-right: 0.5rem;
   border-radius: 50%;
-  background-color: #099fff;
+  background-color: #f2ea02;
   animation-name: animated-block;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -63,6 +64,9 @@
 .cancel-button {
   width: 25px;
   height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .start-button-container {
@@ -72,8 +76,8 @@
 }
 
 .start-button:hover {
-  color: #41295a;
-  background-color: #f2ea02;
+  color: #141850;
+  background-color: #fae5df;
 }
 
 .start-button {
